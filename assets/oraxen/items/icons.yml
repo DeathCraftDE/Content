@@ -1,0 +1,9 @@
+gems:
+  displayname: <green>Gems
+  material: EMERALD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - icons/gems.png
+    custom_model_data: 1

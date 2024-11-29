@@ -1,0 +1,14 @@
+{
+  "connect.joining": "",
+  "menu.disconnect": "§c",
+  "menu.options": "Einstellungen",
+  "menu.returnToGame": "§a",
+  "menu.game": "<glyph:logo>",
+  "item.dyed": "",
+  "menu.sendFeedback": "§lFeedback",
+  "menu.reportBugs": "§lBug melden",
+  "gui.advancements": "§lErfolge",
+  "gui.stats": "§lStatistiken",
+  "container.inventory": " Inventory",
+  "resourcePack.server.name": "DeathCraft"
+}

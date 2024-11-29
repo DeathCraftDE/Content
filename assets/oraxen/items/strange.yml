@@ -1,0 +1,19 @@
+giftklinge:
+  displayname: <green><bold>Giftklinge
+  material: NETHERITE_SWORD
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: strange/giftklinge
+    custom_model_data: 7
+
+verfluchtesense:
+  displayname: <red><bold>Verfluchte Sense
+  material: NETHERITE_HOE
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: strange/verfluchtesense
+    custom_model_data: 2

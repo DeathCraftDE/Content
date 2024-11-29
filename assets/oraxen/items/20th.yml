@@ -1,0 +1,572 @@
+20th_bed:
+  displayname: <gold><bold>Bett
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      restricted_rotation: VERY_STRICT
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: -1 , y: 0, z: 0 }
+        - { x: 0 , y: 0, z: 1 }
+        - { x: 1 , y: 0, z: 1 }
+        - { x: -1 , y: 0, z: 1 }
+        - { x: 0 , y: 0, z: 2 }
+        - { x: 1 , y: 0, z: 2 }
+        - { x: -1 , y: 0, z: 2 }
+        - { x: 0 , y: 1, z: 2 }
+        - { x: 1 , y: 1, z: 2 }
+        - { x: -1 , y: 1, z: 2 }
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_bed
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/bed
+    custom_model_data: 26
+
+20th_big_cupboard:
+  displayname: <gold><bold>Schrank
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: -1 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+        - { x: 1 , y: 1, z: 0 }
+        - { x: -1 , y: 1, z: 0 }
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_bigcupboard
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/big_cupboard
+    custom_model_data: 27
+
+20th_book_shelf:
+  displayname: <gold><bold>Bücherschrank
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      storage:
+        type: STORAGE
+        rows: 1
+        title: "<dark_gray>Bücherplatz" 
+        open_sound: entity.chest.open
+        close_sound: entity.chest.close 
+      type: ITEM_FRAME 
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: 1 , y: 1, z: 0 }
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_book_shelf
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/book_shelf
+    custom_model_data: 28
+
+20th_carpet_1:
+  displayname: <gold><bold>Teppich
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: false
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_carpet_1
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/carpet_1
+    custom_model_data: 29
+
+20th_carpet_2:
+  displayname: <white><bold>Teppich
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: false
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_carpet_2
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/carpet_2
+    custom_model_data: 30
+
+20th_chair:
+  displayname: <gold><bold>Stuhl
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 1
+      seat:
+        height: 0
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_chair
+          probability: 0
+  Pack:
+    generate_model: false
+    model: furniture/20th/chair
+    custom_model_data: 31
+
+20th_clock:
+  displayname: <gold><bold>Uhr
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_clock
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/clock
+    custom_model_data: 32
+
+20th_cupboard:
+  displayname: <white><bold>Schrank
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: -1 , y: 0, z: 0 }
+      light: 1
+      storage:
+        type: STORAGE
+        rows: 3
+        title: "<dark_gray>Schrank" 
+        open_sound: entity.chest.open
+        close_sound: entity.chest.close 
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_cupboard
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/cupboard
+    custom_model_data: 33
+
+20th_desk_lamp:
+  displayname: <gold><bold>Tischlampe
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 10
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_desk_lamp
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/desk_lamp
+    custom_model_data: 34
+
+20th_fireplace:
+  displayname: <gold><bold>Kamin
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_fireplace
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/fireplace
+    custom_model_data: 35
+
+20th_green_leather_sofa:
+  displayname: <gold><bold>Ledersofa
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 1
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_green_leather_sofa
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/green_leather_sofa
+    custom_model_data: 36
+
+20th_mirror:
+  displayname: <white><bold>Spiegel
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_mirror
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/mirror
+    custom_model_data: 37
+
+20th_nightstand:
+  displayname: <gold><bold>Nachttisch
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      storage:
+        type: STORAGE
+        rows: 1
+        title: "<dark_gray>Nachttisch"
+        open_sound: entity.chest.open
+        close_sound: entity.chest.close
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_nightstand
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/nightstand
+    custom_model_data: 38
+
+20th_painting:
+  displayname: <white><bold>Gemälde
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: true
+      barrier: true
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_painting
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/painting
+    custom_model_data: 39
+
+20th_piano:
+  displayname: <gold><bold>Klavier
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      light: 1
+      barriers:
+        - { x: 1 , y: 0, z: 0 }
+        - { x: 1 , y: 1, z: 0 }
+        - { x: 1 , y: 2, z: 0 }
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+        - { x: 0 , y: 0, z: 1 }
+        - { x: 0 , y: 1, z: 1 }
+        - { x: 2 , y: 0, z: 0 }
+
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_piano
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/piano
+    custom_model_data: 40
+
+20th_radio:
+  displayname: <gold><bold>Radio
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 1
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_radio
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/radio
+    custom_model_data: 41
+
+20th_showcase:
+  displayname: <gold><bold>Vitrine
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      storage:
+        type: STORAGE
+        rows: 1
+        title: "<dark_gray>Vitrine"
+        open_sound: entity.chest.open
+        close_sound: entity.chest.close
+      type: ITEM_FRAME
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_showcase
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/showcase
+    custom_model_data: 42
+
+
+20th_standing_lamp:
+  displayname: <gold><bold>Stehlampe
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+      light: 15
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_standing_lamp
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/standing_lamp
+    custom_model_data: 43
+
+20th_table:
+  displayname: <gold><bold>Tisch
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 1 , y: 1, z: 0 }
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_table
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/table
+    custom_model_data: 44
+
+20th_tabletop_small_lamp:
+  displayname: <gold><bold>Tischlampe
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 10
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: 20th_tabletop_small_lamp
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/20th/tabletop_small_lamp
+    custom_model_data: 45

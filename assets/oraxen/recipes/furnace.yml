@@ -1,0 +1,7 @@
+sausage:
+  experience: 200
+  cookingTime: 20
+  result:
+    oraxen_item: raw_sausage
+  input:
+    oraxen_item: cooked_sausage

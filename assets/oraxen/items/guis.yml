@@ -1,0 +1,64 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+arrow_next_icon:
+  displayname: <#D5D6D8>Next page
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - required/arrow_next_icon.png
+    custom_model_data: 1013
+
+invisible:
+  displayname: <gray>
+  material: STRUCTURE_VOID
+  Pack:
+    generate_model: false
+    model: gui/invisible
+    custom_model_data: 1
+
+arrow_previous_icon:
+  displayname: <#D5D6D8>Previous page
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - required/arrow_previous_icon.png
+    custom_model_data: 1014
+
+exit_icon:
+  displayname: <gradient:#FA7CBB:#F14658>Back to main menu
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - required/exit_icon.png
+    custom_model_data: 1015
+
+schmied_plus:
+  displayname: <gray><bold>Plus
+  material: GRAY_DYE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/plus.png
+    custom_model_data: 1
+
+turschloss:
+  displayname: <dark_gray><bold>Türschloss
+  material: BARRIER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - icons/turschloss.png
+    custom_model_data: 2

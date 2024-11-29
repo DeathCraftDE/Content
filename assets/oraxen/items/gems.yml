@@ -1,0 +1,18 @@
+gemspicke:
+  displayname: <dark_purple><bold>Gems Bᴏʜʀᴇʀ
+  material: NETHERITE_PICKAXE
+  lore:
+  - <white>
+  - '<dark_gray>➜ <gray>Spezial: <green>+ 2 Herzen'
+  - <dark_gray>-------------------
+  - <green><bold>Gems Kᴏʟʟᴇᴋᴛɪᴏɴ <dark_gray>(<green>1<gray>/<green>4<dark_gray>)
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 6
+    fortune: 4
+    unbreaking: 6
+  Pack:
+    generate_model: false
+    model: gems/gemspicke
+    custom_model_data: 5

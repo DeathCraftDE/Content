@@ -1,0 +1,26 @@
+burger:
+  injectID: false
+  displayname: <gold><bold>Burger
+  material: GOLDEN_HORSE_ARMOR
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Effekt: <green>kein Hunger <dark_gray>(Hat)"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  PotionEffects:
+    # - type: Get the list here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+    # - duration: in ticks
+    # - amplifier: potion effects level
+    # - ambient: true/false, makes potion effect produce more, translucent, particles.
+    # - particles: true/false, whether this effect has particles or not
+    # - icon: true/false, whether this effect has an icon or not
+    - { type: WITHER,
+        duration: 200,
+        amplifier: 2,
+        ambient: false,
+        particles: true,
+        icon: true }
+  Pack:
+    generate_model: false
+    model: food/burger
+    custom_model_data: 2

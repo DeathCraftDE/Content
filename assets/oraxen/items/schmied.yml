@@ -1,0 +1,92 @@
+gold_ring:
+  displayname: <gold><bold>Goldener<red><bold> Ring
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/goldener-ring.png
+    custom_model_data: 1
+
+eiskette:
+  displayname: <blue><bold>Eis<aqua><bold> Kette
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/eiskette.png
+    custom_model_data: 2
+
+mystische_wunderklinge:
+  displayname: <#81009C><bold>M<#8900A0><bold>y<#9200A4><bold>s<#9A00A8><bold>t<#A200AC><bold>i<#AA00B0><bold>s<#B300B3><bold>c<#AF02B6><bold>h<#9309B6><bold>e
+    <#7810B6><bold>W<#5C16B6><bold>u<#401DB5><bold>n<#2524B5><bold>d<#092BB5><bold>e<#002AB8><bold>r<#0026BD><bold>k<#0021C2><bold>l<#001DC7><bold>i<#0018CC><bold>n<#0014D1><bold>g<#000FD6><bold>e
+  material: DIAMOND_SWORD
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/mystische_wunderklinge.png
+    custom_model_data: 1
+
+silber_krug:
+  displayname: <gray><bold>Silber Krug
+  material: IRON_INGOT
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/silber_krug.png
+    custom_model_data: 1
+
+silber_ohrringe:
+  displayname: <gray><bold>Silber Ohrringe
+  material: IRON_INGOT
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/silber_ohrringe.png
+    custom_model_data: 2
+
+silber:
+  displayname: <gray><bold>Silber
+  material: IRON_INGOT
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/silber.png
+    custom_model_data: 3
+
+handschuh:
+  displayname: <gray><bold>Dampfender Handschuh
+  material: IRON_INGOT
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/handschuh.png
+    custom_model_data: 4
+
+spoon:
+  displayname: <dark_gray><bold>Löffel
+  material: IRON_SHOVEL
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/spoon.png
+    custom_model_data: 1
+
+wither_stein:
+  displayname: <dark_gray><bold>Vulkan<gold><bold>Stein
+  material: COAL
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - schmied/vulkangestein.png
+    custom_model_data: 28

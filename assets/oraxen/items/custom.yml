@@ -1,0 +1,137 @@
+kettensage:
+  displayname: <red><bold>Kᴇᴛᴛᴇɴsäɢᴇ
+  material: NETHERITE_AXE
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Spezial: <aqua>+10% Schnelligkeit"
+  - "<dark_gray>➜ <gray>Effekt: <green>Baumfäller" 
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 8
+    mending: 2
+    silk_touch: 7
+    unbreaking: 6
+  Pack:
+    generate_model: false
+    model: custom/kettensage
+    custom_model_data: 1
+  
+schleimkletscher:
+  displayname: <green><bold>Schleim Kletscher
+  material: NETHERITE_PICKAXE
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Spezial: <aqua>x2 Sprungkraft"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 9
+    mending: 2
+    fortune: 4
+    unbreaking: 8
+    sharpness: 7
+  Pack:
+    generate_model: false
+    model: custom/schleimkletscher
+    custom_model_data: 2
+
+bohrer:
+  displayname: <red><bold>Superbohrer
+  material: NETHERITE_PICKAXE
+  lore:
+  - "<gray>Bohrer I"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 6
+    mending: 2
+    silk_touch: 7
+    unbreaking: 7
+  Mechanics:
+    bigmining:
+      radius: 1
+      depth: 1
+  Pack:
+    generate_model: false
+    model: custom/bohrer
+    custom_model_data: 3
+
+katana:
+  displayname: <red><bold>Katana
+  material: NETHERITE_SWORD
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: custom/katana
+    custom_model_data: 4
+
+scorpion:
+  displayname: <light_blue><bold>Scorpion Bogen
+  material: BOW
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: custom/scorpion_bow
+    pulling_models:
+      - custom/scorpion_bow_0
+      - custom/scorpion_bow_1
+      - custom/scorpion_bow_2
+    custom_model_data: 1
+
+rechem:
+  displayname: <red><bold>Rechen
+  material: NETHERITE_HOE
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: custom/rechen
+    custom_model_data: 1
+
+witherklinge:
+  displayname: <red><bold>Witherklinge
+  material: NETHERITE_SWORD
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: custom/witherklinge
+    custom_model_data: 5
+
+larryklinge:
+  displayname: <red><bold>Larryklinge
+  material: NETHERITE_SWORD
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: custom/larryklinge
+    custom_model_data: 6
+
+solarpicke:
+  displayname: <green><bold>Solar Picke
+  material: NETHERITE_PICKAXE
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 8
+    mending: 2
+    fortune: 4
+    unbreaking: 7
+  Pack:
+    generate_model: false
+    model: custom/solarpicke
+    custom_model_data: 7
+
+steampunk_goggles:
+  displayname: <red><bold>Brille
+  material: GOLDEN_HORSE_ARMOR
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: custom/steampunk_goggles
+    custom_model_data: 5

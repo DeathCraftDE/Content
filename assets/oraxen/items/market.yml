@@ -1,0 +1,553 @@
+market_barrel:
+  displayname: <gold><bold>Fass
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_barrel
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/barrel
+    custom_model_data: 8
+    
+market_barrelberry:
+  displayname: <gold><bold>Bier-Fass
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_barrelberry
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/barrelberry
+    custom_model_data: 9
+
+market_barrelsword:
+  displayname: <gold><bold>Schwerter-Fass
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_barrelsword
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/barrelsword
+    custom_model_data: 10
+
+market_boardsign:
+  displayname: <gold><bold>Brettschild
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_boardsign
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/boardsign
+    custom_model_data: 11
+
+market_campfire_1:
+  displayname: <gold><bold>Lagerfeuer
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_campfire_1
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/campfire_1
+    custom_model_data: 12
+
+market_campfire_2:
+  displayname: <gold><bold>Lagerfeuer
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_campfire_2
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/campfire_2
+    custom_model_data: 13
+
+market_cargo_1:
+  displayname: <gold><bold>Cargo
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_cargo_1
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/cargo_1
+    custom_model_data: 14
+
+market_cargo_2:
+  displayname: <gold><bold>Cargo
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_cargo_2
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/cargo_2
+    custom_model_data: 15
+
+market_cart_1:
+  displayname: <gold><bold>Cart
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_cart_1
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/cart_1
+    custom_model_data: 16
+
+market_cart_2:
+  displayname: <gold><bold>Cart
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_cart_2
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/cart_2
+    custom_model_data: 17
+
+market_chair:
+  displayname: <gold><bold>Stuhl
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_chair
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/chair
+    custom_model_data: 18
+
+market_crate:
+  displayname: <gold><bold>Kisten
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_crate
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/crate
+    custom_model_data: 19
+
+market_earthenware:
+  displayname: <gold><bold>Ton
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_earthenware
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/earthenware
+    custom_model_data: 20
+
+market_fishtub:
+  displayname: <gold><bold>Fischwanne
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_fishtub
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/fishtub
+    custom_model_data: 21
+
+market_marketstall_1:
+  displayname: <gold><bold>Marktstand
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_marketstall_1
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/marketstall_1
+    custom_model_data: 22
+
+market_marketstall_2:
+  displayname: <gold><bold>Marktstand
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_marketstall_2
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/marketstall_2
+    custom_model_data: 23
+
+market_marketstall_3:
+  displayname: <gold><bold>Marktstand
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_marketstall_3
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/marketstall_3
+    custom_model_data: 24
+
+market_marketstall_4:
+  displayname: <gold><bold>Marktstand
+  material: PAPER
+  lore:
+    - ""
+    - "<dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden"
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: market_marketstall_4
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/market/marketstall_4
+    custom_model_data: 25

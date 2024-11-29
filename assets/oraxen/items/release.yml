@@ -1,0 +1,13 @@
+releasepicke:
+  displayname: <dark_gray><bold>Release Picke
+  material: NETHERITE_PICKAXE
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 6
+    mending: 2
+    unbreaking: 5
+  Pack:
+    generate_model: false
+    model: release/releasepicke
+    custom_model_data: 4

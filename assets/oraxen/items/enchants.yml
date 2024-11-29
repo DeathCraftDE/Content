@@ -1,0 +1,56 @@
+efficiency:
+  displayname: <yellow>Enchanted Book
+  material: ENCHANTED_BOOK
+  enchantments:
+    efficiency: 6
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - enchant/efficiency.png
+    custom_model_data: 1
+
+unbreaking:
+  displayname: <yellow>Enchanted Book
+  material: ENCHANTED_BOOK
+  enchantments:
+    unbreaking: 4
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - enchant/unbreaking.png
+    custom_model_data: 2
+
+protection:
+  material: ENCHANTED_BOOK
+  enchantments:
+    protection: 5
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - enchant/protection.png
+    custom_model_data: 3
+
+sharpness:
+  material: ENCHANTED_BOOK
+  enchantments:
+    sharpness: 6
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - enchant/sharpness.png
+    custom_model_data: 4
+
+aderbrecher:
+  material: ENCHANTED_BOOK
+  lore:
+    - "<gray>Aderbrecher I"
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - enchant/aderbrecher.png
+    custom_model_data: 5

@@ -1,0 +1,23 @@
+gems_ore:
+  displayname: <gradient:#4B36B1:#6699FF>Gems Ore
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - blocks/gems_ore
+    custom_model_data: 2
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 1
+      model: gems_ore
+      hardness: 6
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: IRON
+        best_tools:
+        - PICKAXE

@@ -1,0 +1,16 @@
+{
+  "DO_NOT_ALTER_THIS_LINE":
+   "This file is for editing all languages at once. To, edit a specific language, use the corresponding file in the 'languages' folder.",
+  "connect.joining": "",
+  "menu.disconnect": "§c",
+  "menu.options": "Einstellungen",
+  "menu.returnToGame": "§a",
+  "menu.game": "<glyph:logo>",
+  "item.dyed": "",
+  "menu.sendFeedback": "Feedback",
+  "menu.reportBugs": "Bug melden",
+  "gui.advancements": "Erfolge",
+  "gui.stats": "Statistiken",
+  "container.inventory": " Inventory",
+  "resourcePack.server.name": "DeathCraft"
+}

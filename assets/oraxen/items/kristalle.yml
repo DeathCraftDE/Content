@@ -1,0 +1,59 @@
+versteinender_kristall:
+  displayname: <gray><bold>Versteinender<aqua><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/versteinender.png
+    custom_model_data: 1
+
+unterwelt_kristall:
+  displayname: <red><bold>Versteinender<dark_red><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/unterwelt.png
+    custom_model_data: 2
+
+eis_kristall:
+  displayname: <aqua><bold>Eis<blue><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/eis.png
+    custom_model_data: 3
+
+magma_kristall:
+  displayname: <dark_red><bold>Magma<red><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/magma.png
+    custom_model_data: 4
+
+mystischer_kristall:
+  displayname: <blue><bold>Mystischer<dark_purple><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/mystisch.png
+    custom_model_data: 6
+
+natur_kristall:
+  displayname: <dark_green><bold>Natur<dark_purple><green> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/natur.png
+    custom_model_data: 7

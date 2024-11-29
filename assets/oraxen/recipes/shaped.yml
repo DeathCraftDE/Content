@@ -1,0 +1,180 @@
+muffin:
+  result:
+    oraxen_item: muffin
+  ingredients:
+    A:
+      minecraft_type: COCOA_BEANS
+    C:
+      minecraft_type: SUGAR
+    B:
+      oraxen_item: raw_pancake_batter
+  shape:
+  - A_A
+  - BCB
+  - _B_
+honey_waffle:
+  result:
+    oraxen_item: honey_waffle
+  ingredients:
+    A:
+      oraxen_item: waffle
+    B:
+      minecraft_type: HONEY_BOTTLE
+  shape:
+  - ___
+  - _AB
+  - ___
+raw_crossaint:
+  result:
+    oraxen_item: crossaint_batter
+  ingredients:
+    A:
+      oraxen_item: butter
+    D:
+      minecraft_type: SUGAR
+    E:
+      minecraft_type: WHEAT
+    B:
+      minecraft_type: EGG
+    C:
+      minecraft_type: MILK_BUCKET
+  shape:
+  - _A_
+  - BCD
+  - E_E
+toast:
+  result:
+    oraxen_item: toast
+  ingredients:
+    A:
+      minecraft_type: BREAD
+  shape:
+  - ___
+  - _AA
+  - _AA
+honey_toast:
+  result:
+    oraxen_item: honey_toast
+  ingredients:
+    A:
+      oraxen_item: toast
+    B:
+      minecraft_type: HONEY_BOTTLE
+  shape:
+  - ___
+  - _AB
+  - ___
+raw_waffle:
+  result:
+    oraxen_item: waffle_batter
+  ingredients:
+    A:
+      minecraft_type: SUGAR
+    D:
+      minecraft_type: EGG
+    C:
+      oraxen_item: butter
+    B:
+      minecraft_type: MILK_BUCKET
+  shape:
+  - ___
+  - ABC
+  - _D_
+raw_pancake:
+  result:
+    oraxen_item: pancake_batter
+  ingredients:
+    D:
+      minecraft_type: EGG
+    B:
+      minecraft_type: WHEAT
+    C:
+      oraxen_item: butter
+    A:
+      minecraft_type: MILK_BUCKET
+  shape:
+  - _A_
+  - BBB
+  - CDC
+choclate_pancake:
+  result:
+    oraxen_item: pancake_with_chocolate
+  ingredients:
+    A:
+      oraxen_item: pancake
+    B:
+      oraxen_item: chocolate_bar
+  shape:
+  - ___
+  - _AB
+  - ___
+chocolate:
+  result:
+    oraxen_item: chocolate_bar
+  ingredients:
+    B:
+      minecraft_type: SUGAR
+    A:
+      minecraft_type: COCOA_BEANS
+  shape:
+  - ___
+  - ABA
+  - ___
+chocolate_donut:
+  result:
+    oraxen_item: chocolate_donut
+  ingredients:
+    D:
+      minecraft_type: SUGAR
+    B:
+      minecraft_type: WHEAT
+    C:
+      oraxen_item: butter
+    A:
+      oraxen_item: chocolate_bar
+  shape:
+  - _A_
+  - BCB
+  - _D_
+taco:
+  result:
+    oraxen_item: taco
+  ingredients:
+    C:
+      minecraft_type: BREAD
+    A:
+      oraxen_item: tomato
+    D:
+      minecraft_type: COOKED_BEEF
+    B:
+      oraxen_item: lettuce
+  shape:
+  - ___
+  - A_B
+  - CDC
+raw_bacon:
+  result:
+    oraxen_item: bacon_raw
+  ingredients:
+    A:
+      minecraft_type: PORKCHOP
+  shape:
+  - ___
+  - AAA
+  - ___
+waffle_batter:
+  result:
+    oraxen_item: waffle_batter
+  ingredients:
+    A:
+      minecraft_type: SUGAR
+    D:
+      minecraft_type: EGG
+    C:
+      oraxen_item: butter
+    B:
+      minecraft_type: MILK_BUCKET
+  shape:
+  - ABC
+  - _D_
+  - ___

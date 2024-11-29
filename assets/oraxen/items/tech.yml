@@ -1,0 +1,77 @@
+techpicke:
+  displayname: <purple><bold>Tech Picke
+  material: NETHERITE_PICKAXE
+  lore:
+  - '<gray>Telepathie I'
+  - '<white>'
+  - '<dark_gray>➜ <gray>Effekt: <blue>+ 11% Speed'
+  - '<dark_gray>➜ <gray>Effekt: <green>+ 4 Herzen'
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 7
+    mending: 2
+    unbreaking: 4
+  Pack:
+    generate_model: false
+    model: tech/techpicke
+    custom_model_data: 1
+
+techklinge:
+  displayname: <bold>Tech Klinge
+  material: NETHERITE_SWORD
+  lore:
+  - '<gray>Magnetismus I'
+  - '<white>'
+  - '<dark_gray>➜ <gray>Effekt: <blue>+ 11% Speed'
+  - '<dark_gray>➜ <gray>Effekt: <green>+ 4 Herzen'
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Enchantments:
+    sharpness: 5
+    mending: 2
+    unbreaking: 4
+    bane_of_arthropods: 6
+    looting: 4
+  Pack:
+    generate_model: false
+    model: tech/techklinge
+    custom_model_data: 2
+
+techaxt:
+  displayname: <bold>Tech Axt
+  material: NETHERITE_AXE
+  lore:
+  - '<gray>Magnetismus I'
+  - '<white>'
+  - '<dark_gray>➜ <gray>Effekt: <light_blue>+ 11% Speed'
+  - '<dark_gray>➜ <gray>Effekt: <green>+ 4 Herzen'
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 8
+    mending: 2
+    unbreaking: 4
+  Pack:
+    generate_model: false
+    model: tech/techaxt
+    custom_model_data: 3
+
+techschaufel:
+  displayname: <bold>Tech Schaufel
+  material: NETHERITE_SHOVEL
+  lore:
+  - '<gray>Magnetismus I'
+  - '<white>'
+  - '<dark_gray>➜ <gray>Effekt: <light_blue>+ 11% Speed'
+  - '<dark_gray>➜ <gray>Effekt: <green>+ 4 Herzen'
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  Enchantments:
+    efficiency: 7
+    mending: 2
+    unbreaking: 4
+  Pack:
+    generate_model: false
+    model: tech/techschaufel
+    custom_model_data: 1

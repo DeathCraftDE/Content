@@ -1,0 +1,706 @@
+medieval_chair:
+  displayname: <gold><bold>Stuhl
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.2
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_chair
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/chair
+    custom_model_data: 67
+
+medieval_bed:
+  displayname: <gold><bold>Bett
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      restricted_rotation: STRICT
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 0, z: 1 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: 1 , y: 0, z: 1 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.2
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: bed
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/bed
+    custom_model_data: 66
+
+medieval_bedside_table:
+  displayname: <gold><bold>Nachttisch
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      storage:
+        type: STORAGE
+        rows: 1
+        title: "<dark_gray>Nachttisch" 
+        open_sound: entity.chest.open
+        close_sound: entity.chest.close 
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_bedside_table
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/bedside_table
+    custom_model_data: 46
+
+medieval_bench:
+  displayname: <gold><bold>Bank
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.2
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_bench
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/bench
+    custom_model_data: 47
+
+medieval_boxes_v2:
+  displayname: <gold><bold>Box
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_boxes_v2
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/boxes_v2
+    custom_model_data: 48
+
+medieval_boxes_v3:
+  displayname: <gold><bold>Box
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_boxes_v3
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/boxes_v3
+    custom_model_data: 49
+
+medieval_boxes:
+  displayname: <gold><bold>Box
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_boxes
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/boxes
+    custom_model_data: 50
+
+medieval_boxesv4:
+  displayname: <gold><bold>Box
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_boxesv4
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/boxesv4
+    custom_model_data: 51
+
+medieval_candle:
+  displayname: <gold><bold>Kerze
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_candle
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/candle
+    custom_model_data: 52
+
+medieval_candlestick:
+  displayname: <gold><bold>Kerze
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_candlestick
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/candlestick
+    custom_model_data: 53
+
+medieval_cart:
+  displayname: <gold><bold>Cart
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      restricted_rotation: STRICT
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+        - { x: 0 , y: 0, z: 1 }
+        - { x: 0 , y: 1, z: 1 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_cart
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/cart
+    custom_model_data: 54
+
+medieval_chandelier:
+  displayname: <gold><bold>Kronleuchter
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: true
+        floor: false
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_chandelier
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/chandelier
+    custom_model_data: 55
+
+medieval_chest:
+  displayname: <gold><bold>Kiste
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      storage:
+        type: STORAGE
+        rows: 3
+        title: "<dark_gray>Inhalt"
+        open_sound: entity.shulker.open
+        close_sound: entity.shulker.close
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_chest
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/chest
+    custom_model_data: 56
+
+medieval_desk:
+  displayname: <gold><bold>Schreibtisch
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      storage:
+        type: STORAGE
+        rows: 3
+        title: "<dark_gray>Schubladen"
+        open_sound: entity.shulker.open
+        close_sound: entity.shulker.close
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: -1 , y: 0, z: 0 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_desk
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/desk
+    custom_model_data: 57
+
+medieval_stool:
+  displayname: <gold><bold>Hocker
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      seat:
+        height: -0.4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_stool
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/stool
+    custom_model_data: 58
+
+medieval_storage_open:
+  displayname: <gold><bold>Schrank
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      storage:
+        type: STORAGE
+        rows: 6
+        title: "<dark_gray>Inhalt"
+        open_sound: entity.shulker.open
+        close_sound: entity.shulker.close
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: 1 , y: 1, z: 0 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_storage_open
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/storage_open
+    custom_model_data: 59
+
+medieval_storage:
+  displayname: <gold><bold>Schrank
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      storage:
+        type: STORAGE
+        rows: 6
+        title: "<dark_gray>Inhalt"
+        open_sound: entity.shulker.open
+        close_sound: entity.shulker.close
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 0 , y: 1, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: 1 , y: 1, z: 0 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_storage
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/storage
+    custom_model_data: 60
+
+medieval_table_v1:
+  displayname: <gold><bold>Tisch
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: -1 , y: 0, z: 0 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_table_v1
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/table_v1
+    custom_model_data: 61
+
+medieval_table_v2:
+  displayname: <gold><bold>Tisch
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_table_v2
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/table_v2
+    custom_model_data: 62
+
+medieval_table_v3:
+  displayname: <gold><bold>Tisch
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barriers:
+        - { x: 0 , y: 0, z: 0 }
+        - { x: 1 , y: 0, z: 0 }
+        - { x: -1 , y: 0, z: 0 }
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_table_v3
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/table_v3
+    custom_model_data: 63
+
+medieval_torch:
+  displayname: <gold><bold>Fackel
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_torch
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/torch
+    custom_model_data: 64
+
+medieval_wall_torch:
+  displayname: <gold><bold>Fackel
+  material: PAPER
+  lore:
+  - ''
+  - <dark_gray>➥ <Gray>Kann als <gold>Möbel <gray>genutzt werden
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: medieval_wall_torch
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: furniture/medieval/wall_torch
+    custom_model_data: 65

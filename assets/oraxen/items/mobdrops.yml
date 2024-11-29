@@ -1,0 +1,69 @@
+rotten_slimeball:
+  displayname: <dark_green><bold>Verschimmelter Schleimball
+  material: SLIME_BALL
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - mobdrops/rotten_slimeball.png
+    custom_model_data: 1
+
+ender_flesh:
+  displayname: <dark_purple><bold>Enderfleisch
+  material: ROTTEN_FLESH
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - mobdrops/ender_flesh.png
+    custom_model_data: 1
+
+witherwirbel:
+  displayname: <dark_purple><bold>WitherWirbel
+  material: BONE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - mobdrops/witherwirbel.png
+    custom_model_data: 1
+
+spider_leg:
+  displayname: <dark_gray><bold>SPIDERLEG
+  material: RABBIT_FOOT
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - mobdrops/spider_leg.png
+    custom_model_data: 1
+
+mushroom_leather:
+  displayname: <red><bold>Mushroom
+  material: LEATHER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - mobdrops/mushroom_leather.png
+    custom_model_data: 1
+
+hat_button:
+  displayname: <red><bold>Hat
+  material: LEATHER_CAP
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - mobdrops/hut.png
+    custom_model_data: 1
+
+colour_button:
+  displayname: <red><bold>Colour
+  material: RED_DYE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - mobdrops/farbpalette.png
+    custom_model_data: 1

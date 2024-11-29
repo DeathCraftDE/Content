@@ -1,0 +1,1 @@
+{"textures":{"2":"modelengine:entity/nm_trout_texture"},"elements":[{"from":[14.0,-7.4030933,-10.177338],"to":[14.0,-1.4030943,-5.1773357],"faces":{"east":{"uv":[0.0,4.0,2.5,7.0],"tintindex":0,"rotation":0,"texture":"#2"},"west":{"uv":[2.5,4.0,5.0,7.0],"tintindex":0,"rotation":0,"texture":"#2"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

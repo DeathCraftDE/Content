@@ -1,0 +1,1467 @@
+8ball:
+  texture: emojipedia/8ball
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':8ball:'
+    permission: emoji.use
+  char: ꐶ
+alarm:
+  texture: emojipedia/alarm
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':alarm:'
+    permission: emoji.use
+  char: ꐷ
+alert:
+  texture: emojipedia/alert
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':alert:'
+    permission: emoji.use
+  char: ꐸ
+alien:
+  texture: emojipedia/alien
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':heart:'
+    permission: emoji.use
+  char: ꐹ
+angry:
+  texture: emojipedia/angry
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':angry:'
+    permission: emoji.use
+  char: ꐺ
+anguish:
+  texture: emojipedia/anguish
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':anguish:'
+    permission: emoji.use
+  char: ꐻ
+anxious:
+  texture: emojipedia/anxious
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':anxious:'
+    permission: emoji.use
+  char: ꐼ
+banana:
+  texture: emojipedia/banana
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':banana:'
+    permission: emoji.use
+  char: ꐽ
+bang:
+  texture: emojipedia/bang
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':bang:'
+    permission: emoji.use
+  char: ꐾ
+baseball:
+  texture: emojipedia/baseball
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':baseball:'
+    permission: emoji.use
+  char: ꐿ
+basketball:
+  texture: emojipedia/basketball
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':basketball:'
+    permission: emoji.use
+  char: ꑀ
+battery:
+  texture: emojipedia/battery
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':battery:'
+    permission: emoji.use
+  char: ꑁ
+beam:
+  texture: emojipedia/beam
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':beam:'
+    permission: emoji.use
+  char: ꑂ
+bear:
+  texture: emojipedia/bear
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':bear:'
+    permission: emoji.use
+  char: ꑃ
+blowkiss:
+  texture: emojipedia/blowkiss
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':blowkiss:'
+    permission: emoji.use
+  char: ꑄ
+blush:
+  texture: emojipedia/blush
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':blush:'
+    permission: emoji.use
+  char: ꑅ
+blushkiss:
+  texture: emojipedia/blushkiss
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':blushkiss:'
+    permission: emoji.use
+  char: ꑆ
+bolt:
+  texture: emojipedia/bolt
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':bolt:'
+    permission: emoji.use
+  char: ꑇ
+bomb:
+  texture: emojipedia/bomb
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':bomb:'
+    permission: emoji.use
+  char: ꑈ
+box:
+  texture: emojipedia/box
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':box:'
+    permission: emoji.use
+  char: ꑉ
+brokenheart:
+  texture: emojipedia/brokenheart
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':brokenheart:'
+    permission: emoji.use
+  char: ꑊ
+bulb:
+  texture: emojipedia/bulb
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':bulb:'
+    permission: emoji.use
+  char: ꑋ
+burger:
+  texture: emojipedia/burger
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':burger:'
+    permission: emoji.use
+  char: ꑌ
+cake:
+  texture: emojipedia/cake
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':cake:'
+    permission: emoji.use
+  char: ꑍ
+card:
+  texture: emojipedia/card
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':card:'
+    permission: emoji.use
+  char: ꑎ
+cat:
+  texture: emojipedia/cat
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':cat:'
+    permission: emoji.use
+  char: ꑏ
+check:
+  texture: emojipedia/check
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':check:'
+    permission: emoji.use
+  char: ꑐ
+chick:
+  texture: emojipedia/chick
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':chick:'
+    permission: emoji.use
+  char: ꑑ
+chickinegg:
+  texture: emojipedia/chickinegg
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':chickinegg:'
+    permission: emoji.use
+  char: ꑒ
+chocolate:
+  texture: emojipedia/chocolate
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':chocolate:'
+    permission: emoji.use
+  char: ꑓ
+cloud:
+  texture: emojipedia/cloud
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':cloud:'
+    permission: emoji.use
+  char: ꑔ
+cloudy:
+  texture: emojipedia/cloudy
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':cloudy:'
+    permission: emoji.use
+  char: ꑕ
+cone:
+  texture: emojipedia/cone
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':cone:'
+    permission: emoji.use
+  char: ꑖ
+confounded:
+  texture: emojipedia/confounded
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':confounded:'
+    permission: emoji.use
+  char: ꑗ
+cookie:
+  texture: emojipedia/cookie
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':cookie:'
+    permission: emoji.use
+  char: ꑘ
+cross:
+  texture: emojipedia/cross
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':cross:'
+    permission: emoji.use
+  char: ꑙ
+crown:
+  texture: emojipedia/crown
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':crown:'
+    permission: emoji.use
+  char: ꑚ
+cry:
+  texture: emojipedia/cry
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':cry:'
+    permission: emoji.use
+  char: ꑛ
+dead:
+  texture: emojipedia/dead
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':dead:'
+    permission: emoji.use
+  char: ꑜ
+deny:
+  texture: emojipedia/deny
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':deny:'
+    permission: emoji.use
+  char: ꑝ
+dice:
+  texture: emojipedia/dice
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':dice:'
+    permission: emoji.use
+  char: ꑞ
+disappointed:
+  texture: emojipedia/disappointed
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':disappointed:'
+    permission: emoji.use
+  char: ꑟ
+dog:
+  texture: emojipedia/dog
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':dog:'
+    permission: emoji.use
+  char: ꑠ
+donut:
+  texture: emojipedia/donut
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':donut:'
+    permission: emoji.use
+  char: ꑡ
+downcast:
+  texture: emojipedia/downcast
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':downcast:'
+    permission: emoji.use
+  char: ꑢ
+droplet:
+  texture: emojipedia/droplet
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':droplet:'
+    permission: emoji.use
+  char: ꑣ
+earth:
+  texture: emojipedia/earth
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':earth:'
+    permission: emoji.use
+  char: ꑤ
+envelope:
+  texture: emojipedia/envelope
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':envelope:'
+    permission: emoji.use
+  char: ꑥ
+expressionless:
+  texture: emojipedia/expressionless
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':expressionless:'
+    permission: emoji.use
+  char: ꑦ
+eyes:
+  texture: emojipedia/eyes
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':eyes:'
+    permission: emoji.use
+  char: ꑧ
+ez:
+  texture: emojipedia/ez
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':ez:'
+    permission: emoji.use
+  char: ꑨ
+faceless:
+  texture: emojipedia/faceless
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':faceless:'
+    permission: emoji.use
+  char: ꑩ
+fearful:
+  texture: emojipedia/fearful
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':fearful:'
+    permission: emoji.use
+  char: ꑪ
+finish:
+  texture: emojipedia/finish
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':finish:'
+    permission: emoji.use
+  char: ꑫ
+fish:
+  texture: emojipedia/fish
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':fish:'
+    permission: emoji.use
+  char: ꑬ
+fist:
+  texture: emojipedia/fist
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':fist:'
+    permission: emoji.use
+  char: ꑭ
+flame:
+  texture: emojipedia/flame
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':flame:'
+    permission: emoji.use
+  char: ꑮ
+flex:
+  texture: emojipedia/flex
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':flex:'
+    permission: emoji.use
+  char: ꑯ
+flower:
+  texture: emojipedia/flower
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':flower:'
+    permission: emoji.use
+  char: ꑰ
+football:
+  texture: emojipedia/football
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':football:'
+    permission: emoji.use
+  char: ꑱ
+fries:
+  texture: emojipedia/fries
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':fries:'
+    permission: emoji.use
+  char: ꑲ
+frown:
+  texture: emojipedia/frown
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':frown:'
+    permission: emoji.use
+  char: ꑳ
+gg:
+  texture: emojipedia/gg
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':gg:'
+    permission: emoji.use
+  char: ꑴ
+glasses:
+  texture: emojipedia/glasses
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':glasses:'
+    permission: emoji.use
+  char: ꑵ
+goblin:
+  texture: emojipedia/goblin
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':goblin:'
+    permission: emoji.use
+  char: ꑶ
+grimace:
+  texture: emojipedia/grimace
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':grimace:'
+    permission: emoji.use
+  char: ꑷ
+grin:
+  texture: emojipedia/grin
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':grin:'
+    permission: emoji.use
+  char: ꑸ
+happyhorns:
+  texture: emojipedia/happyhorns
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':happyhorns:'
+    permission: emoji.use
+  char: ꑹ
+happysun:
+  texture: emojipedia/happysun
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':happysun:'
+    permission: emoji.use
+  char: ꑺ
+heart:
+  texture: emojipedia/heart
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':heart:'
+    permission: emoji.use
+  char: ꐘ
+hearteyes:
+  texture: emojipedia/hearteyes
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':hearteyes:'
+    permission: emoji.use
+  char: ꑻ
+hibiscus:
+  texture: emojipedia/hibiscus
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':hibiscus:'
+    permission: emoji.use
+  char: ꑼ
+horse:
+  texture: emojipedia/horse
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':horse:'
+    permission: emoji.use
+  char: ꑽ
+hushed:
+  texture: emojipedia/hushed
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':hushed:'
+    permission: emoji.use
+  char: ꑾ
+indexup:
+  texture: emojipedia/indexup
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':indexup:'
+    permission: emoji.use
+  char: ꑿ
+kiss:
+  texture: emojipedia/kiss
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':kiss:'
+    permission: emoji.use
+  char: ꒀ
+ladybug:
+  texture: emojipedia/ladybug
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':ladybug:'
+    permission: emoji.use
+  char: ꒁ
+lion:
+  texture: emojipedia/lion
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':lion:'
+    permission: emoji.use
+  char: ꒂ
+lips:
+  texture: emojipedia/lips
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':lips:'
+    permission: emoji.use
+  char: ꒃ
+lock:
+  texture: emojipedia/lock
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':lock:'
+    permission: emoji.use
+  char: ꒄ
+lol:
+  texture: emojipedia/lol
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':lol:'
+    permission: emoji.use
+  char: ꒅ
+lollipop:
+  texture: emojipedia/lollipop
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':lollipop:'
+    permission: emoji.use
+  char: ꒆ
+lovenote:
+  texture: emojipedia/lovenote
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':lovenote:'
+    permission: emoji.use
+  char: ꒇ
+mail:
+  texture: emojipedia/mail
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':mail:'
+    permission: emoji.use
+  char: ꒈ
+mailclosed:
+  texture: emojipedia/mailclosed
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':mailclosed:'
+    permission: emoji.use
+  char: ꒉ
+mask:
+  texture: emojipedia/mask
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':mask:'
+    permission: emoji.use
+  char: ꒊ
+masks:
+  texture: emojipedia/masks
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':masks:'
+    permission: emoji.use
+  char: ꒋ
+meat:
+  texture: emojipedia/meat
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':meat:'
+    permission: emoji.use
+  char: ꒌ
+money:
+  texture: emojipedia/money
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':money:'
+    permission: emoji.use
+  char: ꒍
+monkey:
+  texture: emojipedia/monkey
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':monkey:'
+    permission: emoji.use
+  char: ꒎
+moon:
+  texture: emojipedia/moon
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':moon:'
+    permission: emoji.use
+  char: ꒏
+moonbright:
+  texture: emojipedia/moonbright
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':moonbright:'
+    permission: emoji.use
+  char: ꒐
+moondark:
+  texture: emojipedia/moondark
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':moondark:'
+    permission: emoji.use
+  char: ꒑
+mouse:
+  texture: emojipedia/mouse
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':mouse:'
+    permission: emoji.use
+  char: ꒒
+mushroom:
+  texture: emojipedia/mushroom
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':mushroom:'
+    permission: emoji.use
+  char: ꒓
+neutral:
+  texture: emojipedia/neutral
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':neutral:'
+    permission: emoji.use
+  char: ꒔
+newspaper:
+  texture: emojipedia/newspaper
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':newspaper:'
+    permission: emoji.use
+  char: ꒕
+blocked:
+  texture: emojipedia/blocked
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':blocked:'
+    permission: emoji.use
+  char: ꒖
+nomail:
+  texture: emojipedia/nomail
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':nomail:'
+    permission: emoji.use
+  char: ꒗
+notstonks:
+  texture: emojipedia/notstonks
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':notstonks:'
+    permission: emoji.use
+  char: ꒘
+ok:
+  texture: emojipedia/ok
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':ok:'
+    permission: emoji.use
+  char: ꒙
+openmouth:
+  texture: emojipedia/openmouth
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':openmouth:'
+    permission: emoji.use
+  char: ꒚
+palette:
+  texture: emojipedia/palette
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':palette:'
+    permission: emoji.use
+  char: ꒛
+panda:
+  texture: emojipedia/panda
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':panda:'
+    permission: emoji.use
+  char: ꒜
+peace:
+  texture: emojipedia/peace
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':peace:'
+    permission: emoji.use
+  char: ꒝
+peach:
+  texture: emojipedia/peach
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':peach:'
+    permission: emoji.use
+  char: ꒞
+pencil:
+  texture: emojipedia/pencil
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':pencil:'
+    permission: emoji.use
+  char: ꒟
+penguin:
+  texture: emojipedia/penguin
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':penguin:'
+    permission: emoji.use
+  char: ꒠
+pensive:
+  texture: emojipedia/pensive
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':pensive:'
+    permission: emoji.use
+  char: ꒡
+perservere:
+  texture: emojipedia/perservere
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':perservere:'
+    permission: emoji.use
+  char: ꒢
+phone:
+  texture: emojipedia/phone
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':phone:'
+    permission: emoji.use
+  char: ꒣
+pig:
+  texture: emojipedia/pig
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':pig:'
+    permission: emoji.use
+  char: ꒤
+pigsnout:
+  texture: emojipedia/pigsnout
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':pigsnout:'
+    permission: emoji.use
+  char: ꒥
+pineapple:
+  texture: emojipedia/pineapple
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':pineapple:'
+    permission: emoji.use
+  char: ꒦
+pizza:
+  texture: emojipedia/pizza
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':pizza:'
+    permission: emoji.use
+  char: ꒧
+poop:
+  texture: emojipedia/poop
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':poop:'
+    permission: emoji.use
+  char: ꒨
+pout:
+  texture: emojipedia/pout
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':pout:'
+    permission: emoji.use
+  char: ꒩
+relieved:
+  texture: emojipedia/relieved
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':relieved:'
+    permission: emoji.use
+  char: ꒪
+rocket:
+  texture: emojipedia/rocket
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':rocket:'
+    permission: emoji.use
+  char: ꒫
+sadhorns:
+  texture: emojipedia/sadhorns
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':sadhorns:'
+    permission: emoji.use
+  char: ꒬
+sadworry:
+  texture: emojipedia/sadworry
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':sadworry:'
+    permission: emoji.use
+  char: ꒭
+screaming:
+  texture: emojipedia/screaming
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':screaming:'
+    permission: emoji.use
+  char: ꒮
+shimmer:
+  texture: emojipedia/shimmer
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':shimmer:'
+    permission: emoji.use
+  char: ꒯
+shimmeryheart:
+  texture: emojipedia/shimmeryheart
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':shimmeryheart:'
+    permission: emoji.use
+  char: ꒰
+shocked:
+  texture: emojipedia/shocked
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':shocked:'
+    permission: emoji.use
+  char: ꒱
+sidetongue:
+  texture: emojipedia/sidetongue
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':sidetongue:'
+    permission: emoji.use
+  char: ꒲
+silverware:
+  texture: emojipedia/silverware
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':silverware:'
+    permission: emoji.use
+  char: ꒳
+skull:
+  texture: emojipedia/skull
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':skull:'
+    permission: emoji.use
+  char: ꒴
+sleeping:
+  texture: emojipedia/sleeping
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':sleeping:'
+    permission: emoji.use
+  char: ꒵
+sleepy:
+  texture: emojipedia/sleepy
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':sleepy:'
+    permission: emoji.use
+  char: ꒶
+smile:
+  texture: emojipedia/smile
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':smile:'
+    permission: emoji.use
+  char: ꒷
+smirk:
+  texture: emojipedia/smirk
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':smirk:'
+    permission: emoji.use
+  char: ꒸
+snail:
+  texture: emojipedia/snail
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':snail:'
+    permission: emoji.use
+  char: ꒹
+snowman:
+  texture: emojipedia/snowman
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':snowman:'
+    permission: emoji.use
+  char: ꒺
+sob:
+  texture: emojipedia/sob
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':sob:'
+    permission: emoji.use
+  char: ꒻
+soccer:
+  texture: emojipedia/soccer
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':soccer:'
+    permission: emoji.use
+  char: ꒼
+spooky:
+  texture: emojipedia/spooky
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':spooky:'
+    permission: emoji.use
+  char: ꒽
+squid:
+  texture: emojipedia/squid
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':squid:'
+    permission: emoji.use
+  char: ꒾
+squint:
+  texture: emojipedia/squint
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':squint:'
+    permission: emoji.use
+  char: ꒿
+squintkiss:
+  texture: emojipedia/squintkiss
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':squintkiss:'
+    permission: emoji.use
+  char: ꓀
+squinttongue:
+  texture: emojipedia/squinttongue
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':hsquinttongueeart:'
+    permission: emoji.use
+  char: ꓁
+star:
+  texture: emojipedia/star
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':star:'
+    permission: emoji.use
+  char: ꓂
+steam:
+  texture: emojipedia/steam
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':steam:'
+    permission: emoji.use
+  char: ꓃
+stonks:
+  texture: emojipedia/stonks
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':stonks:'
+    permission: emoji.use
+  char: ꓄
+sun:
+  texture: emojipedia/sun
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':sun:'
+    permission: emoji.use
+  char: ꓅
+sweat:
+  texture: emojipedia/sweat
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':sweat:'
+    permission: emoji.use
+  char: ꓆
+tag:
+  texture: emojipedia/tag
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':tag:'
+    permission: emoji.use
+  char: ꓇
+target:
+  texture: emojipedia/target
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':target:'
+    permission: emoji.use
+  char: ꓈
+thumbsdown:
+  texture: emojipedia/thumbsdown
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':thumbsdown:'
+    permission: emoji.use
+  char: ꓉
+thumbsup:
+  texture: emojipedia/thumbsup
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':thumbsup:'
+    permission: emoji.use
+  char: ꓊
+tired:
+  texture: emojipedia/tired
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':tired:'
+    permission: emoji.use
+  char: ꓋
+toilet:
+  texture: emojipedia/toilet
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':toilet:'
+    permission: emoji.use
+  char: ꓌
+tongue:
+  texture: emojipedia/tongue
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':tongue:'
+    permission: emoji.use
+  char: ꓍
+tophat:
+  texture: emojipedia/tophat
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':tophat:'
+    permission: emoji.use
+  char: ꓎
+trafficlight:
+  texture: emojipedia/trafficlight
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':trafficlight:'
+    permission: emoji.use
+  char: ꓏
+trophy:
+  texture: emojipedia/trophy
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':trophy:'
+    permission: emoji.use
+  char: ꓐ
+unamused:
+  texture: emojipedia/unamused
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':unamused:'
+    permission: emoji.use
+  char: ꓑ
+unlock:
+  texture: emojipedia/unlock
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':unlock:'
+    permission: emoji.use
+  char: ꓒ
+weary:
+  texture: emojipedia/weary
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':weary:'
+    permission: emoji.use
+  char: ꓓ
+wink:
+  texture: emojipedia/wink
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':wink:'
+    permission: emoji.use
+  char: ꓔ
+winktongue:
+  texture: emojipedia/winktongue
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':winktongue:'
+    permission: emoji.use
+  char: ꓕ
+worry:
+  texture: emojipedia/worry
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':worry:'
+    permission: emoji.use
+  char: ꓖ
+confirm:
+  texture: emojipedia/confirm
+  ascent: 8
+  height: 9
+  chat:
+    placeholders:
+    - ':confirm:'
+    permission: emoji.use
+  char: ꓗ

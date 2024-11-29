@@ -1,0 +1,65 @@
+schnecke_foi:
+  displayname: <green><bold>Schnecke Foi
+  material: TOTEM_OF_UNDIY
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Spezial: <green>+10 Herzen"
+  - "<dark_gray>➜ <gray>Spezial: <green>+20% Speed"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: buddy/foi
+    custom_model_data: 3
+
+fox:
+  displayname: <gold><bold>Foxy
+  material: TOTEM_OF_UNDYING
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Effekt: <green>+35% Speed"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: buddy/fox
+    custom_model_data: 2
+
+Auto:
+  displayname: <red><bold>Mini Auto
+  material: TOTEM_OF_UNDYING
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Effekt: <green>+80 Speed"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: buddy/auto
+    custom_model_data: 4
+
+evoli:
+  displayname: <red><bold>Evoli Mutze
+  material: GOLDEN_HORSE_ARMOR
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Effekt: <green>x2 Sprungkraft"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: buddy/evoli
+    custom_model_data: 3
+
+krone:
+  displayname: <red><bold>Krone
+  material: GOLDEN_HORSE_ARMOR
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Effekt: <green>+ 50% Speed"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: buddy/krone
+    custom_model_data: 4

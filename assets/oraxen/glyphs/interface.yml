@@ -1,0 +1,766 @@
+# Simply deleting this file will make the plugin fail to load
+# Make sure you delete all entries found in other files
+# For example, language file uses logo glyph
+
+
+menu_items_overlay:
+  texture: required/ui/menu_items_gems
+  ascent: 37
+  height: 256
+  char: ꐝ
+
+recipe_stonecutter:
+  texture: required/recipe_stonecutter
+  ascent: 40
+  height: 164
+  char: ꐞ
+
+logo:
+  texture: required/logo
+  ascent: 20
+  height: 36
+  char: ꐙ
+  
+spieler:
+  texture: ranks/spieler
+  ascent: 9
+  height: 11
+  char: 
+  
+premium:
+  texture: ranks/premium
+  ascent: 9
+  height: 11
+  char: 
+  
+master:
+  texture: ranks/master
+  ascent: 9
+  height: 11
+  char: 
+  
+legend:
+  texture: ranks/legend
+  ascent: 9
+  height: 11
+  char: 
+  
+titan:
+  texture: ranks/titan
+  ascent: 9
+  height: 11
+  char: 
+
+demon:
+  texture: ranks/demon
+  ascent: 9
+  height: 11
+  char: 
+
+mystic:
+  texture: ranks/mystic
+  ascent: 9
+  height: 11
+  char: 
+
+vip:
+  texture: ranks/vip
+  ascent: 9
+  height: 11
+  char: 
+  
+creator:
+  texture: ranks/creator
+  ascent: 9
+  height: 11
+  char: 
+
+content:
+  texture: ranks/content
+  ascent: 9
+  height: 11
+  char: 
+
+builder:
+  texture: ranks/builder
+  ascent: 9
+  height: 11
+  char: 
+  
+sup:
+  texture: ranks/sup
+  ascent: 9
+  height: 11
+  char: 
+  
+mod:
+  texture: ranks/mod
+  ascent: 9
+  height: 11
+  char: 
+
+dev:
+  texture: ranks/dev
+  ascent: 9
+  height: 11
+  char: 
+
+admin:
+  texture: ranks/admin
+  ascent: 9
+  height: 11
+  char: 
+
+owner:
+  texture: ranks/owner
+  ascent: 9
+  height: 11
+  char: 
+
+deathcraft:
+  texture: text/deathcraft
+  ascent: 9
+  height: 20
+  char: 
+
+menu_banner:
+  texture: required/ui/menu_banner
+  ascent: -10
+  height: 236
+  char: ꐚ
+
+menu_recipe:
+  texture: required/recipe_showcase
+  ascent: 40
+  height: 164
+  char: ꐛ
+
+menu_items:
+  texture: required/ui/menu_items
+  ascent: 37
+  height: 256
+  char: ꐜ
+
+islandgui1:
+  texture: gui/islandgui1
+  ascent: 37
+  height: 256
+  char: 
+  
+ranggui7:
+  texture: gui/ranggui7
+  ascent: 37
+  height: 256
+  char: 
+
+ranggui6:
+  texture: gui/ranggui6
+  ascent: 37
+  height: 256
+  char: 
+
+ranggui5:
+  texture: gui/ranggui5
+  ascent: 37
+  height: 256
+  char: 
+
+ranggui4:
+  texture: gui/ranggui4
+  ascent: 37
+  height: 256
+  char: 
+
+ranggui3:
+  texture: gui/ranggui3
+  ascent: 37
+  height: 256
+  char: 
+
+ranggui2:
+  texture: gui/ranggui2
+  ascent: 37
+  height: 256
+  char: 
+
+ranggui1:
+  texture: gui/ranggui1
+  ascent: 37
+  height: 256
+  char: 
+
+helden:
+  texture: gui/helden
+  ascent: 37
+  height: 256
+  char: 
+
+gems:
+  texture: icons/gems
+  ascent: 11
+  height: 14
+  char: 
+
+feedback:
+  texture: escape/feedback
+  ascent: 9
+  height: 10
+  char: 
+
+a:
+  texture: font/a
+  ascent: 9
+  height: 10
+  char: 
+
+b:
+  texture: font/b
+  ascent: 9
+  height: 10
+  char: 
+
+c:
+  texture: font/c
+  ascent: 9
+  height: 10
+  char: 
+
+d:
+  texture: font/d
+  ascent: 9
+  height: 10
+  char: 
+
+e:
+  texture: font/e
+  ascent: 9
+  height: 10
+  char: 
+
+f:
+  texture: font/f
+  ascent: 9
+  height: 10
+  char: 
+
+g:
+  texture: font/g
+  ascent: 9
+  height: 10
+  char: 
+
+h:
+  texture: font/h
+  ascent: 9
+  height: 10
+  char: 
+
+i:
+  texture: font/i
+  ascent: 9
+  height: 10
+  char: 
+
+j:
+  texture: font/j
+  ascent: 9
+  height: 10
+  char: 
+
+k:
+  texture: font/k
+  ascent: 9
+  height: 10
+  char: 
+
+l:
+  texture: font/l
+  ascent: 9
+  height: 10
+  char: 
+
+m:
+  texture: font/m
+  ascent: 9
+  height: 10
+  char: 
+
+n:
+  texture: font/n
+  ascent: 9
+  height: 10
+  char: 
+
+o:
+  texture: font/o
+  ascent: 9
+  height: 10
+  char: 
+
+p:
+  texture: font/p
+  ascent: 9
+  height: 10
+  char: 
+
+q:
+  texture: font/q
+  ascent: 9
+  height: 10
+  char: 
+
+r:
+  texture: font/r
+  ascent: 9
+  height: 10
+  char: 
+
+s:
+  texture: font/s
+  ascent: 9
+  height: 10
+  char: 
+
+t:
+  texture: font/t
+  ascent: 9
+  height: 10
+  char: 
+
+u:
+  texture: font/u
+  ascent: 9
+  height: 10
+  char: 
+
+v:
+  texture: font/v
+  ascent: 9
+  height: 10
+  char: 
+
+w:
+  texture: font/w
+  ascent: 9
+  height: 10
+  char: 
+
+x:
+  texture: font/x
+  ascent: 9
+  height: 10
+  char: 
+
+y:
+  texture: font/y
+  ascent: 9
+  height: 10
+  char: 
+
+z:
+  texture: font/z
+  ascent: 9
+  height: 10
+  char: 
+
+0:
+  texture: font/0
+  ascent: 9
+  height: 10
+  char: 
+
+1:
+  texture: font/1
+  ascent: 9
+  height: 10
+  char: 
+
+2:
+  texture: font/2
+  ascent: 9
+  height: 10
+  char: 
+
+3:
+  texture: font/3
+  ascent: 9
+  height: 10
+  char: 
+
+4:
+  texture: font/4
+  ascent: 9
+  height: 10
+  char: 
+
+5:
+  texture: font/5
+  ascent: 9
+  height: 10
+  char: 
+
+6:
+  texture: font/6
+  ascent: 9
+  height: 10
+  char: 
+
+7:
+  texture: font/7
+  ascent: 9
+  height: 10
+  char: 
+
+8:
+  texture: font/8
+  ascent: 9
+  height: 10
+  char: 
+
+9:
+  texture: font/9
+  ascent: 9
+  height: 10
+  char: 
+
+cookiegui:
+  texture: gui/cookieclicker
+  ascent: 37
+  height: 256
+  char: 
+
+hexengui:
+  texture: gui/hexengui
+  ascent: 37
+  height: 256
+  char: 
+
+schmiedgui:
+  texture: gui/schmied
+  ascent: 37
+  height: 256
+  char: 
+
+unterwelt_kristall:
+  texture: kristalle/unterwelt
+  ascent: 11
+  height: 14
+  char: 
+
+eis_kristall:
+  texture: kristalle/eis
+  ascent: 11
+  height: 14
+  char: 
+
+versteinender_kristall:
+  texture: kristalle/versteinender
+  ascent: 11
+  height: 14
+  char: 
+
+cobblestone:
+  texture: minecraft/cobblestone
+  ascent: 8
+  height: 10
+  char: 
+
+coins:
+  texture: icons/coins
+  ascent: 8
+  height: 10
+  char: 
+
+magma_kristall:
+  texture: kristalle/magma
+  ascent: 8
+  height: 10
+  char: 
+
+gold_ingot:
+  texture: minecraft/gold_ingot
+  ascent: 8
+  height: 10
+  char: 
+
+iron_ingot:
+  texture: minecraft/iron_ingot
+  ascent: 8
+  height: 10
+  char: 
+
+netherite_ingot:
+  texture: minecraft/netherite_ingot
+  ascent: 8
+  height: 10
+  char: 
+
+diamond:
+  texture: minecraft/diamond
+  ascent: 8
+  height: 10
+  char: 
+
+schmied_ubersicht:
+  texture: schmied/schmied_ubersicht
+  ascent: 37
+  height: 256
+  char: 
+
+mystischer_kristall:
+  texture: kristalle/mystisch
+  ascent: 8
+  height: 10
+  char: 
+
+vulkanstein:
+  texture: schmied/vulkangestein
+  ascent: 8
+  height: 10
+  char: 
+
+silber:
+  texture: schmied/silber
+  ascent: 8
+  height: 10
+  char: 
+
+wither_stein:
+  texture: schmied/wither_stein
+  ascent: 8
+  height: 10
+  char: 
+
+schleimkletscher:
+  texture: text/schleimkletscher
+  ascent: 51
+  height: 100
+  char: 
+
+mystisch:
+  texture: text/mystisch
+  ascent: 18
+  height: 38
+  char: 
+
+natur_kristall:
+  texture: kristalle/natur
+  ascent: 8
+  height: 10
+  char: 
+
+jobs:
+  texture: gui/jobs
+  ascent: 37
+  height: 256
+  char: 
+
+handwerk:
+  texture: gui/handwerk
+  ascent: 37
+  height: 256
+  char: 
+
+handwerkselector:
+  texture: gui/handwerkselector
+  ascent: 37
+  height: 256
+  char: 
+
+handwerktext:
+  texture: text/handwerktext
+  ascent: 8
+  height: 12
+  char: 
+
+candle:
+  texture: item/candle
+  ascent: 8
+  height: 8
+  char: 
+
+white_wool:
+  texture: block/white_wool
+  ascent: 8
+  height: 8
+  char: 
+
+white_stained_glass_pane:
+  texture: block/white_stained_glass
+  ascent: 8
+  height: 8
+  char: 
+
+spruce_planks:
+  texture: block/spruce_planks
+  ascent: 8
+  height: 8
+  char: 
+
+yellow_stained_glass_pane:
+  texture: block/yellow_stained_glass
+  ascent: 8
+  height: 8
+  char: 
+
+glowstone:
+  texture: block/glowstone
+  ascent: 8
+  height: 8
+  char: 
+
+trash:
+  texture: gui/trash
+  ascent: 37
+  height: 256
+  char: 
+
+bank:
+  texture: gui/bank
+  ascent: 37
+  height: 256
+  char: 
+
+bohrer:
+  texture: text/bohrer
+  ascent: 16
+  height: 24
+  char: 
+
+katana:
+  texture: text/katana
+  ascent: 8
+  height: 12
+  char: 
+
+tech:
+  texture: text/tech
+  ascent: 10
+  height: 12
+  char: 
+
+magischestotem:
+  texture: text/magischestotem
+  ascent: 10
+  height: 12
+  char: 
+
+scorpionbolt:
+  texture: text/scorpionbolt
+  ascent: 8
+  height: 10
+  char: 
+
+kettensage:
+  texture: text/kettensage
+  ascent: 11
+  height: 14
+  char: 
+
+emerald:
+  texture: item/emerald
+  ascent: 10
+  height: 12
+  char: 
+
+paper:
+  texture: item/paper
+  ascent: 10
+  height: 12
+  char: 
+
+black_dye:
+  texture: item/black_dye
+  ascent: 10
+  height: 12
+  char: 
+
+painting:
+  texture: item/painting
+  ascent: 10
+  height: 12
+  char: 
+
+oak_planks:
+  texture: block/oak_planks
+  ascent: 8
+  height: 8
+  char: 
+
+red_wool:
+  texture: block/red_wool
+  ascent: 8
+  height: 8
+  char: 
+
+chest:
+  texture: handwerker/chest
+  ascent: 8
+  height: 8
+  char: 
+
+chain:
+  texture: item/chain
+  ascent: 8
+  height: 10
+  char: 
+
+clock:
+  texture: item/clock_00
+  ascent: 8
+  height: 8
+  char: 
+
+leather:
+  texture: item/leather
+  ascent: 10
+  height: 12
+  char: 
+
+gold_nugget:
+  texture: item/gold_nugget
+  ascent: 10
+  height: 12
+  char: 
+
+green_dye:
+  texture: item/green_dye
+  ascent: 10
+  height: 12
+  char: 
+
+book:
+  texture: item/book
+  ascent: 10
+  height: 12
+  char: 
+
+book:
+  texture: item/book
+  ascent: 10
+  height: 12
+  char: 
+
+coal:
+  texture: item/coal
+  ascent: 10
+  height: 12
+  char: 
+
+singlehelden:
+  texture: gui/singlehelden
+  ascent: 37
+  height: 256
+  char: 
+
+iron_nugget:
+  texture: item/iron_nugget
+  ascent: 10
+  height: 12
+  char: 
+
+flamirox_head:
+  texture: head/flamirox_head
+  ascent: 16
+  height: 24
+  char: 

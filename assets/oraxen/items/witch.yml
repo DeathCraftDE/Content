@@ -1,0 +1,34 @@
+cauldron:
+  displayname: <gray>Hexen Kessel
+  material: GOLDEN_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      type: ITEM_FRAME # Valid types are ITEM_FRAME, GLOW_ITEM_FRAME & DISPLAY_ENTITY if server is 1.19.4>
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      barrier: true
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: cauldron
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: witch/cauldron
+    custom_model_data: 1
+
+magic:
+  displayname: <blue><bold>Magisches Totem
+  material: TOTEM_OF_UNDYING
+  lore:
+  - "<white>"
+  - "<dark_gray>➜ <gray>Spezial: <green>+ 10 Herzen <dark_gray>(Hat)"
+  ItemFlags:
+    - HIDE_ATTRIBUTES
+  Pack:
+    generate_model: false
+    model: witch/magic
+    custom_model_data: 1

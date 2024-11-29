@@ -1,0 +1,893 @@
+bacon_cooked:
+  displayname: Cooked Bacon
+  injectID: false
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/bacon_cooked.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 7
+      saturation: 4
+bacon_raw:
+  displayname: Raw Bacon
+  injectID: false
+  material: BEEF
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/bacon_raw.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+      effect_probability: 0.15
+      effects:
+        nausea:
+          amplifier: 1
+          duration: 20
+          has_particles: true
+          has_icon: true
+banana:
+  displayname: Banana
+  injectID: false
+  material: APPLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/banana.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 1
+banana_shake:
+  displayname: Banana Shake
+  injectID: false
+  material: HONEY_BOTTLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/banana_shake.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 4
+      effect_probability: 1.0
+      effects:
+        regeneration:
+          amplifier: 2
+          duration: 60
+          has_particles: true
+          has_icon: true
+basil:
+  displayname: Basil
+  injectID: false
+  material: DRIED_KELP
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/basil.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+baguette:
+  displayname: Baguette
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/baguette.png
+    custom_model_data: 1000
+beer:
+  displayname: Beer
+  injectID: false
+  material: HONEY_BOTTLE
+  Mechanics:
+    food:
+      hunger: 3
+      saturation: 3
+      effect_probability: 0.35
+      effects:
+        nausea:
+          amplifier: 1
+          duration: 20
+          has_particles: true
+          has_icon: true
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/beer.png
+    custom_model_data: 1001
+burger:
+  displayname: Burger
+  injectID: false
+  material: COOKED_BEEF
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/burger
+    custom_model_data: 1002
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 3
+butter:
+  displayname: Butter
+  injectID: false
+  material: DRIED_KELP
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/butter.png
+    custom_model_data: 1001
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+carrot_juice:
+  displayname: Carrot Juice
+  injectID: false
+  material: HONEY_BOTTLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/carrot_juice.png
+    custom_model_data: 1002
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 4
+      effect_probability: 1.0
+      effects:
+        regeneration:
+          amplifier: 2
+          duration: 60
+          has_particles: true
+          has_icon: true
+        night_vision:
+          duration: 20
+chocolate_bar:
+  displayname: Chocolate Bar
+  injectID: false
+  material: DRIED_KELP
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/chocolate_bar.png
+    custom_model_data: 1002
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 1
+wrapped_chocolate_bar:
+  displayname: Wrapped Chocolate Bar
+  injectID: false
+  material: DRIED_KELP
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/chocolate_bar_wrapped.png
+    custom_model_data: 1003
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 1
+chocolate_donut:
+  displayname: Chocolate Donut
+  injectID: false
+  material: DRIED_KELP
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/chocolate_donut.png
+    custom_model_data: 1004
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 1
+chocolate_ice_cream:
+  displayname: Chocolate Ice Cream
+  injectID: false
+  material: DRIED_KELP
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/chocolate_ice_cream.png
+    custom_model_data: 1005
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 1
+cooked_chicken_thigh:
+  displayname: Cooked Chicken Thigh
+  injectID: false
+  material: COOKED_CHICKEN
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/cooked_chicken_thigh.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 2
+cooked_sausage:
+  displayname: Cooked Sausage
+  injectID: false
+  material: COOKED_CHICKEN
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/cooked_sausage.png
+    custom_model_data: 1001
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 2
+crossaint:
+  displayname: Crossaint
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/crossaint.png
+    custom_model_data: 1001
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 2
+crossaint_batter:
+  displayname: Crossaint Batter
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/crossaint_batter.png
+    custom_model_data: 1002
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+flour:
+  displayname: Flour
+  injectID: false
+  material: SUGAR
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/flour.png
+    custom_model_data: 1000
+french_fries:
+  displayname: French Fries
+  injectID: false
+  material: COOKED_CHICKEN
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/french_fries.png
+    custom_model_data: 1002
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 2
+fried_egg:
+  displayname: Fried Egg
+  injectID: false
+  material: COOKED_CHICKEN
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/fried_egg.png
+    custom_model_data: 1003
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 2
+cooked_frog_leg:
+  displayname: Cooked Frog Leg
+  injectID: false
+  material: COOKED_CHICKEN
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/cooked_frog_leg.png
+    custom_model_data: 1004
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 2
+glow_berry_soup:
+  displayname: Glow Berry Soup
+  injectID: false
+  material: MUSHROOM_STEW
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/glow_berry_soup.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 4
+honey_toast:
+  displayname: Honey Toast
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/honey_toast.png
+    custom_model_data: 1003
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 4
+honey_waffle:
+  displayname: Honey Waffle
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/honey_waffle.png
+    custom_model_data: 1004
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 4
+hotdog:
+  displayname: Hotdog
+  injectID: false
+  material: COOKED_CHICKEN
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/hotdog.png
+    custom_model_data: 1005
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 2
+kebab:
+  displayname: Kebab
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/kebab.png
+    custom_model_data: 1005
+  Mechanics:
+    food:
+      hunger: 3
+      saturation: 2
+lettuce:
+  displayname: Lettuce
+  injectID: false
+  material: CARROT
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/lettuce.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 3
+      saturation: 2
+muffin:
+  displayname: Muffin
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/muffin.png
+    custom_model_data: 1006
+  Mechanics:
+    food:
+      hunger: 3
+olive_oil:
+  displayname: Muffin
+  injectID: false
+  material: HONEY_BOTTLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/olive_oil.png
+    custom_model_data: 1003
+orange:
+  displayname: Orange
+  injectID: false
+  material: APPLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/orange.png
+    custom_model_data: 1001
+  Mechanics:
+    food:
+      hunger: 3
+      saturation: 2
+orange_juice:
+  displayname: Orange Juice
+  injectID: false
+  material: APPLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/orange_juice.png
+    custom_model_data: 1002
+  Mechanics:
+    food:
+      hunger: 3
+      saturation: 2
+      effect_probability: 1.0
+      effects:
+        regeneration:
+          amplifier: 2
+          duration: 20
+          has_particles: true
+          has_icon: true
+pancake:
+  displayname: Pancake
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/pancake.png
+    custom_model_data: 1007
+  Mechanics:
+    food:
+      hunger: 5
+      saturation: 2
+pancake_batter:
+  displayname: Pancake Batter
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/pancake_batter.png
+    custom_model_data: 1008
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+pancake_with_chocolate:
+  displayname: Pancake with Chocolate
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/pancake_with_chocolate.png
+    custom_model_data: 1009
+  Mechanics:
+    food:
+      hunger: 5
+      saturation: 2
+pancake_with_honey:
+  displayname: Pancake with Honey
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/pancake_with_honey.png
+    custom_model_data: 1010
+  Mechanics:
+    food:
+      hunger: 5
+      saturation: 2
+pasta:
+  displayname: Pasta
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/pasta.png
+    custom_model_data: 1011
+  Mechanics:
+    food:
+      hunger: 5
+      saturation: 2
+pepper:
+  displayname: Pepper
+  injectID: false
+  material: SUGAR
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/pepper.png
+    custom_model_data: 1001
+pizza:
+  displayname: Pizza
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/pizza.png
+    custom_model_data: 1012
+  Mechanics:
+    food:
+      hunger: 5
+      saturation: 2
+raw_chicken_thigh:
+  displayname: Raw Chicken Thigh
+  injectID: false
+  material: CHICKEN
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/raw_chicken_thigh.png
+    custom_model_data: 1000
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+raw_green_frog_leg:
+  displayname: Raw Green Frog Leg
+  injectID: false
+  material: ROTTEN_FLESH
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/raw_green_frog_leg.png
+    custom_model_data: 2
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+raw_orange_frog_leg:
+  displayname: Raw Green Frog Leg
+  injectID: false
+  material: ROTTEN_FLESH
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/raw_orange_frog_leg.png
+    custom_model_data: 3
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+raw_pancake_batter:
+  displayname: Raw Pancake Batter
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/raw_pancake_batter.png
+    custom_model_data: 1013
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+raw_pasta:
+  displayname: Raw Pancake Batter
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/raw_pasta.png
+    custom_model_data: 1014
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+raw_sausage:
+  displayname: Raw Sausage
+  material: BEEF
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/raw_sausage.png
+    custom_model_data: 1001
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+raw_white_frog_leg:
+  displayname: Raw White Frog Leg
+  injectID: false
+  material: ROTTEN_FLESH
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/raw_white_frog_leg.png
+    custom_model_data: 4
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+salt:
+  displayname: Salt
+  material: SUGAR
+  injectID: false
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/salt.png
+    custom_model_data: 1002
+soup:
+  displayname: Soup
+  material: MUSHROOM_STEW
+  injectID: false
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/soup.png
+    custom_model_data: 1001
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 4
+strawberry:
+  displayname: Strawberry
+  material: APPLE
+  injectID: false
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/strawberry.png
+    custom_model_data: 1003
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 1
+strawberry_shake:
+  displayname: Strawberry
+  injectID: false
+  material: APPLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/strawberry_shake.png
+    custom_model_data: 1004
+  Mechanics:
+    food:
+      hunger: 10
+      saturation: 4
+      effect_probability: 1.0
+      effects:
+        saturation:
+          amplifier: 2
+          duration: 60
+          has_particles: true
+          has_icon: true
+taco:
+  displayname: Taco
+  material: BREAD
+  injectID: false
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/taco.png
+    custom_model_data: 1015
+  Mechanics:
+    food:
+      hunger: 4
+      saturation: 3
+toast:
+  displayname: Toast
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/toast.png
+    custom_model_data: 1016
+  Mechanics:
+    food:
+      hunger: 6
+      saturation: 3
+tomato:
+  displayname: Tomato
+  injectID: false
+  material: APPLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/tomato.png
+    custom_model_data: 1005
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 1
+tomato_paste:
+  displayname: Tomato Paste
+  injectID: false
+  material: APPLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/tomato_paste.png
+    custom_model_data: 1006
+  Mechanics:
+    food:
+      hunger: 2
+      saturation: 1
+tomato_shake:
+  displayname: Tomato Shake
+  injectID: false
+  material: HONEY_BOTTLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/tomato_shake.png
+    custom_model_data: 1004
+  Mechanics:
+    food:
+      hunger: 5
+      saturation: 2
+tomato_soup:
+  displayname: Tomato Soup
+  injectID: false
+  material: APPLE
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/tomato_soup.png
+    custom_model_data: 1007
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 4
+vinegar:
+  displayname: Vinegar
+  injectID: false
+  material: SUGAR
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/vinegar.png
+    custom_model_data: 1003
+waffle:
+  displayname: Waffle
+  material: BREAD
+  injectID: false
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/waffle.png
+    custom_model_data: 1017
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 4
+waffle_batter:
+  displayname: Waffle Batter
+  injectID: false
+  material: BREAD
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/waffle_batter.png
+    custom_model_data: 1018
+  Mechanics:
+    food:
+      hunger: 1
+      saturation: 1
+warped_fungus_stew:
+  displayname: Warped Fungus Stew
+  injectID: false
+  material: MUSHROOM_STEW
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/warped_fungus_stew.png
+    custom_model_data: 1002
+  Mechanics:
+    food:
+      hunger: 8
+      saturation: 4
+wine:
+  displayname: Wine
+  material: HONEY_BOTTLE
+  injectID: false
+  Mechanics:
+    food:
+      hunger: 3
+      saturation: 3
+      effect_probability: 0.35
+      effects:
+        nausea:
+          amplifier: 1
+          duration: 20
+          has_particles: true
+          has_icon: true
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/wine.png
+    custom_model_data: 1005
+yogurt:
+  displayname: Youghert
+  injectID: false
+  material: MUSHROOM_STEW
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - cooking_expansion/yogurt.png
+    custom_model_data: 1003
+  Mechanics:
+    food:
+      hunger: 3
+      saturation: 1
