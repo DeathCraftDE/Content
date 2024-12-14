@@ -1,6 +1,6 @@
-releasepicke:
-  displayname: <dark_gray><bold>Release Picke
-  material: NETHERITE_PICKAXE
+releaseaxt:
+  displayname: <dark_gray><bold>Release Axt
+  material: NETHERITE_AXE
   ItemFlags:
   - HIDE_ATTRIBUTES
   Enchantments:
@@ -9,5 +9,5 @@ releasepicke:
     unbreaking: 5
   Pack:
     generate_model: false
-    model: release/releasepicke
-    custom_model_data: 4
+    model: release/releaseaxt
+    custom_model_data: 2
