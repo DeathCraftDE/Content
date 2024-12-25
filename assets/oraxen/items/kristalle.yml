@@ -1,59 +1,179 @@
-versteinender_kristall:
-  displayname: <gray><bold>Versteinender<aqua><bold> Kristall
-  material: DIAMOND
-  Pack:
-    generate_model: true
-    parent_model: item/generated
-    textures:
-    - kristalle/versteinender.png
-    custom_model_data: 1
-
-unterwelt_kristall:
-  displayname: <red><bold>Versteinender<dark_red><bold> Kristall
-  material: DIAMOND
-  Pack:
-    generate_model: true
-    parent_model: item/generated
-    textures:
-    - kristalle/unterwelt.png
-    custom_model_data: 2
-
-eis_kristall:
+eis_kristall_selten:
   displayname: <aqua><bold>Eis<blue><bold> Kristall
   material: DIAMOND
   Pack:
     generate_model: true
     parent_model: item/generated
     textures:
-    - kristalle/eis.png
+    - kristalle/eis_selten.png
+    custom_model_data: 1
+
+eis_kristall_episch:
+  displayname: <aqua><bold>Eis<blue><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/eis_episch.png
+    custom_model_data: 2
+
+eis_kristall_einzigartig:
+  displayname: <aqua><bold>Eis<blue><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/eis_einzigartig.png
     custom_model_data: 3
 
-magma_kristall:
+unterwelt_kristall_selten:
+  displayname: <red><bold>Unterwelt<dark_red><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/unterwelt_selten.png
+    custom_model_data: 4
+
+unterwelt_kristall_episch:
+  displayname: <red><bold>Unterwelt<dark_red><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/unterwelt_episch.png
+    custom_model_data: 5
+
+unterwelt_kristall_einzigartig:
+  displayname: <red><bold>Unterwelt<dark_red><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/unterwelt_einzigartig.png
+    custom_model_data: 6
+
+magma_kristall_selten:
   displayname: <dark_red><bold>Magma<red><bold> Kristall
   material: DIAMOND
   Pack:
     generate_model: true
     parent_model: item/generated
     textures:
-    - kristalle/magma.png
-    custom_model_data: 4
+    - kristalle/magma_selten.png
+    custom_model_data: 7
 
-mystischer_kristall:
+magma_kristall_episch:
+  displayname: <dark_red><bold>Magma<red><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/magma_episch.png
+    custom_model_data: 8
+
+magma_kristall_einzigartig:
+  displayname: <dark_red><bold>Magma<red><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/magma_einzigartig.png
+    custom_model_data: 9
+
+mystischer_kristall_selten:
   displayname: <blue><bold>Mystischer<dark_purple><bold> Kristall
   material: DIAMOND
   Pack:
     generate_model: true
     parent_model: item/generated
     textures:
-    - kristalle/mystisch.png
-    custom_model_data: 6
+    - kristalle/mystisch_selten.png
+    custom_model_data: 10
 
-natur_kristall:
+mystischer_kristall_episch:
+  displayname: <blue><bold>Mystischer<dark_purple><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/mystisch_episch.png
+    custom_model_data: 11
+
+mystischer_kristall_einzigartig:
+  displayname: <blue><bold>Mystischer<dark_purple><bold> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/mystisch_einzigartig.png
+    custom_model_data: 12
+
+natur_kristall_selten:
   displayname: <dark_green><bold>Natur<dark_purple><green> Kristall
   material: DIAMOND
   Pack:
     generate_model: true
     parent_model: item/generated
     textures:
-    - kristalle/natur.png
-    custom_model_data: 7
+    - kristalle/natur_selten.png
+    custom_model_data: 13
+
+natur_kristall_episch:
+  displayname: <dark_green><bold>Natur<dark_purple><green> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/natur_episch.png
+    custom_model_data: 14
+
+natur_kristall_einzigartig:
+  displayname: <dark_green><bold>Natur<dark_purple><green> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/natur_einzigartig.png
+    custom_model_data: 15
+    
+edel_kristall_selten:
+  displayname: <gold><bold>Edel<dark_purple><yellow> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/edel_selten.png
+    custom_model_data: 16
+
+edel_kristall_episch:
+  displayname: <gold><bold>Edel<dark_purple><yellow> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/edel_episch.png
+    custom_model_data: 17
+
+edel_kristall_einzigartig:
+  displayname: <gold><bold>Edel<dark_purple><yellow> Kristall
+  material: DIAMOND
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - kristalle/edel_einzigartig.png
+    custom_model_data: 18

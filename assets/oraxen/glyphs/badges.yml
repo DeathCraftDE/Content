@@ -1,0 +1,115 @@
+badge:
+  01-00-01:
+    badge: 뀀
+    title: §7Admin
+    description: team
+  
+  00-02-01:
+    badge: 뀁
+    title: §6Beta
+    description: beta
+  
+  00-01-01:
+    badge: 뀂
+    title: §dBooster
+    description: booster
+  
+  01-01-01:
+    badge: 뀃
+    title: §6bot_dc
+    description: bot
+  
+  01-01-02:
+    badge: 뀃
+    title: §6bot_dc
+    description: bot
+  
+  01-01-03:
+    badge: 뀃
+    title: §6bot_dc
+    description: bot
+  
+  01-00-02:
+    badge: 뀆
+    title: §7Builder
+    description: team
+  
+  01-00-03:
+    badge: 뀇
+    title: §7Content
+    description: team
+  
+  01-00-04:
+    badge: 뀉
+    title: §dCreator
+    description: creator
+  
+  01-01-04:
+    badge: 뀐
+    title: §4Death§cCraft
+    description: deathcraft
+  
+  00-00-01:
+    badge: 뀑
+    title: §4Demon
+    description: demon
+  
+  01-00-05:
+    badge: 뀑
+    title: §2Hoster
+    description: hoster
+  
+  00-00-02:
+    badge: 뀑
+    title: §aLegende
+    description: legende
+  
+  00-00-03:
+    badge: 뀑
+    title: §2Master
+    description: master
+  
+  01-00-06:
+    badge: 뀑
+    title: §7Mod
+    description: team
+  
+  00-00-04:
+    badge: 뀗
+    title: §bMythic
+    description: mythic
+  
+  01-00-07:
+    badge: 뀘
+    title: §7Owner
+    description: team
+  
+  00-00-05:
+    badge: 뀙
+    title: §6Premium
+    description: premium
+  
+  01-00-08:
+    badge: 뀡
+    title: §7Supporter
+    description: team
+  
+  01-01-05:
+    badge: 뀡
+    title: §6Team
+    description: team
+  
+  00-00-06:
+    badge: 뀢
+    title: §8Titan
+    description: titan
+  
+  00-00-07:
+    badge: 뀣
+    title: §6VIP
+    description: vip
+  
+  00-02-02:
+    badge: 뀤
+    title: §4We§fih§4na§fch§4te§fn
+    description: event

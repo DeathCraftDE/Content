@@ -1,0 +1,17 @@
+einzigartig:
+  texture: rarity/einzigartig
+  ascent: 7
+  height: 8
+  char: 
+  
+episch:
+  texture: rarity/episch
+  ascent: 7
+  height: 8
+  char: 
+
+selten:
+  texture: rarity/selten
+  ascent: 7
+  height: 8
+  char: 
